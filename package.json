@@ -1,0 +1,29 @@
+{
+  "name": "btube",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon --exec babel-node index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/hisprit/temp_btube.git"
+  },
+  "author": "henry",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/hisprit/temp_btube/issues"
+  },
+  "homepage": "https://github.com/hisprit/temp_btube#readme",
+  "dependencies": {
+    "express": "^4.18.2",
+    "morgan": "^1.10.0"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.22.5",
+    "@babel/node": "^7.22.5",
+    "@babel/preset-env": "^7.22.5",
+    "nodemon": "^2.0.22"
+  }
+}
